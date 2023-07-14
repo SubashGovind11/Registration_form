@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(to right, rgb(43, 226, 92), rgb(210, 186, 4));
+}
+h1 {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 10px;
+  padding-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 35px;
+}
+.heading {
+  height: 60px;
+  background: linear-gradient(
+    to right,
+    rgb(27, 187, 202),
+    rgb(42, 117, 117),
+    rgb(20, 176, 176)
+  );
+  width: 500px;
+}
+
+.card {
+  margin: auto;
+  margin-top: 35px;
+  height: 750px;
+  width: 500px;
+  background: linear-gradient(to right, rgb(193, 188, 198), rgb(172, 164, 159));
+  padding-top: 20px;
+  padding-left: 70px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 3px rgb(122, 71, 170);
+}
+input {
+  height: 40px;
+  width: 400px;
+  background: transparent;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  color: rgba(215, 204, 214, 0.886);
+  border-bottom: 1px solid rgba(45, 182, 30, 0.4);
+}
+label {
+  color: rgba(20, 149, 43, 0.4);
+  font-size: 30px;
+}
+button {
+  padding: 10px 100px;
+  margin-left: 30px;
+  border-radius: 10px;
+  color: rgba(22, 11, 12, 0);
+  font-size: 30px;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 1px 1px 1px 1px rgb(36, 10, 72);
+}
+button:hover {
+  color: white;
+}
